@@ -1,20 +1,20 @@
 # Facial-Detection
 
-### Few libraries need to install:
-                                1. opencv-python 
-                                2. tensorflow 
-                                3. tensorflow-gpu
-                                4. labelme
-                                5. albumentations
-                                6. numpy
+### Important Dependencies:
+                       1. opencv 
+                       2. tensorflow 
+                       3. tensorflow-gpu
+                       4. labelme
+                       5. albumentations
+                       6. numpy
 
 Nvidia GPU user - install cuda and cudnn 
 
 
-### 1.Data Collection and sloting:
+### 1.Data Collection:
 
 1. Create own dataset using webcam, make use of the DataCollection.py
-2. Moving of randam amount and image data from a folder to other folder using movefile.py
+2. Moving of amount of image randomly from a folder to other folder using movefile.py
 
 ### 2.Create data annotation:
 
@@ -31,10 +31,10 @@ If you need to move the created annotations to the right folder, use the movelab
 ### 4.Build Model:
 
 1. The Model used will be VGG16.
-2. In BuildModel.py, it is all the step to build model and save it. 
+2. In BuildModel.py, show all the step to build model and save it. 
 
 ### 5.Testing Model
-1. In live_detection.py, is all step to load the saved model and run it.
+1. In live_detection.py, show all step to load the saved model and run it.
 
 
 ## Common Problem and Solution
@@ -43,9 +43,9 @@ If you need to move the created annotations to the right folder, use the movelab
 1. Ensure the webcam is not in-use
 2. pip uninstall opencv and pip install opencv-python
 
-### 2. If you have issue while using code that require tensorflow:
-1. check if tensorflow and tensorflow-gpu is compactable with the python version you using.https://www.tensorflow.org/install/source#gpu 
-2. Ensure tensorflow and tensorflow-gpu are the same version
+### 2.  After installed the CUDA, GPU still not activated:
+1. Check if tensorflow and tensorflow-gpu is compactable with the python version you using.https://www.tensorflow.org/install/source#gpu 
+2. Ensure tensorflow and tensorflow-gpu are the same version 
 
 ### 3. For Nvidia gpu user: Error on cudnn64_8.dll
 1. Ensure cudnn is installed probably.
