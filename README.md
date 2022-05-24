@@ -44,12 +44,11 @@ In live_detection.py, is all step to load the saved model and run it.
                     2. pip uninstall opencv and pip install opencv-python
 
 2. If you have issue while using code that require tensorflow:
-                    1. Check if tensorflow and tensorflow-gpu is compactable with the python version you using.
-                    https://www.tensorflow.org/install/source#gpu 
-                    3. Ensure tensorflow and tensorflow-gpu are the same version
+                    1. Check if tensorflow and tensorflow-gpu is compactable with the python version you using.https://www.tensorflow.org/install/source#gpu 
+                    2. Ensure tensorflow and tensorflow-gpu are the same version
 
 3. For Nvidia gpu user: Error on cudnn64_8.dll
                     1. Ensure cudnn is installed probably.
                     2. Go to cuddnn/bin folder and copy all the cudnn_xx_xxxx64_8.dll
-                    3. paste it at cuda/bin
+                    3. Paste it at cuda/bin
                         
