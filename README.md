@@ -18,23 +18,23 @@ Nvidia GPU user - install cuda and cudnn
 
 ### 2.Create data annotation:
 
-After installing labelme, go to the enviroment that labelme is installed and type labelme.
-A program should pop out for you to create ur own annotation
+1. After installing labelme, go to the enviroment that labelme is installed and type labelme.
+2. A program should pop out for you to create ur own annotation
 
 If you need to move the created annotations to the right folder, use the movelabel.py
 
 ### 3.Create more data:
 
-Make use of the create_data.py
-Kindly ensure that the folder for image and annotations are set correct if not it will not work
+1. Make use of the create_data.py
+2.Kindly ensure that the folder for image and annotations are set correct if not it will not work
 
 ### 4.Build Model:
 
-The Model used will be VGG16.
-In BuildModel.py, it is all the step to build model and save it. 
+1.The Model used will be VGG16.
+2. In BuildModel.py, it is all the step to build model and save it. 
 
 ### 5.Testing Model
-In live_detection.py, is all step to load the saved model and run it.
+1. In live_detection.py, is all step to load the saved model and run it.
 
 
 ## Common Problem and Solution
