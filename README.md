@@ -39,15 +39,15 @@ If you need to move the created annotations to the right folder, use the movelab
 
 ## Common Problem and Solution
 
-1. If you can't activate the webcam: 
+###1. If you can't activate the webcam: 
 a. Ensure the webcam is not in-use
 b. pip uninstall opencv and pip install opencv-python
 
-2. If you have issue while using code that require tensorflow:
+###2. If you have issue while using code that require tensorflow:
 a. check if tensorflow and tensorflow-gpu is compactable with the python version you using.https://www.tensorflow.org/install/source#gpu 
 b. Ensure tensorflow and tensorflow-gpu are the same version
 
-3. For Nvidia gpu user: Error on cudnn64_8.dll
+###3. For Nvidia gpu user: Error on cudnn64_8.dll
 a. Ensure cudnn is installed probably.
 b. Go to cuddnn/bin folder and copy all the cudnn_xx_xxxx64_8.dll
 c. Paste it at cuda/bin
