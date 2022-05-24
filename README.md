@@ -39,11 +39,11 @@ If you need to move the created annotations to the right folder, use the movelab
 
 ## Common Problem and Solution
 
-### 1. If you can't activate the webcam: 
+### 1. Can't activate the webcam: 
 1. Ensure the webcam is not in-use
 2. pip uninstall opencv and pip install opencv-python
 
-### 2.  After installed the CUDA, GPU still not activated:
+### 2. After installed the CUDA, GPU still not activated:
 1. Check if tensorflow and tensorflow-gpu is compactable with the python version you using.https://www.tensorflow.org/install/source#gpu 
 2. Ensure tensorflow and tensorflow-gpu are the same version 
 
