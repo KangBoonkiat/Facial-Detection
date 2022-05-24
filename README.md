@@ -26,11 +26,11 @@ If you need to move the created annotations to the right folder, use the movelab
 ### 3.Create more data:
 
 1. Make use of the create_data.py
-2.Kindly ensure that the folder for image and annotations are set correct if not it will not work
+2. Kindly ensure that the folder for image and annotations are set correct if not it will not work
 
 ### 4.Build Model:
 
-1.The Model used will be VGG16.
+1. The Model used will be VGG16.
 2. In BuildModel.py, it is all the step to build model and save it. 
 
 ### 5.Testing Model
